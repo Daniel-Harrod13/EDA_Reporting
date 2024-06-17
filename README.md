@@ -1,38 +1,34 @@
-# Exploratory Data Analysis (EDA) Projects
+# Black Friday Sales Analysis
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-## What is Exploratory Data Analysis (EDA)?
+## Overview
 
-Exploratory Data Analysis (EDA) is a crucial step in the data analysis process. It involves the initial exploration, visualization, and summary of the data to gain insights, identify patterns, and detect potential issues. EDA helps data analysts and scientists understand the data's distribution, relationships between variables, and any peculiarities that may influence subsequent analysis and modeling.
+This Jupyter notebook contains an analysis of Black Friday sales data. The analysis includes data cleaning, exploratory data analysis (EDA), and the development of a predictive model.
 
-In EDA, various statistical and graphical techniques are employed to uncover meaningful information from the data, which can then guide further analyses, data cleaning, and modeling decisions.
+# Black Friday Seles EDA
 
-## About this Repository
+```
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 550068 entries, 0 to 550067
+Data columns (total 12 columns):
+ #   Column                      Non-Null Count   Dtype  
+---  ------                      --------------   -----  
+ 0   User_ID                     550068 non-null  int64  
+ 1   Product_ID                  550068 non-null  object 
+ 2   Gender                      550068 non-null  object 
+ 3   Age                         550068 non-null  object 
+ 4   Occupation                  550068 non-null  int64  
+ 5   City_Category               550068 non-null  object 
+ 6   Stay_In_Current_City_Years  550068 non-null  object 
+ 7   Marital_Status              550068 non-null  int64  
+ 8   Product_Category_1          550068 non-null  int64  
+ 9   Product_Category_2          376430 non-null  float64
+ 10  Product_Category_3          166821 non-null  float64
+ 11  Purchase                    550068 non-null  int64  
+dtypes: float64(2), int64(5), object(5)
+memory usage: 50.4+ MB
 
-This repository serves as a collection of different Exploratory Data Analysis (EDA) projects. Each project focuses on analyzing a specific dataset, extracting insights, and visualizing patterns to understand the data better.
+```
 
-## Table of Contents
-- [About Exploratory Data Analysis (EDA)](#what-is-exploratory-data-analysis-eda)
-- [About this Repository](#about-this-repository)
-- [Projects](#projects)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Projects
-
-Below are the EDA projects available in this repository:
-
-1. [Project 1: Title of Project 1](link/to/project1/folder)
-   - Brief description of the first project.
-   - Add any key findings or insights here.
-
-2. [Project 2: Title of Project 2](link/to/project2/folder)
-   - Brief description of the second project.
-   - Add any key findings or insights here.
-
-<!-- Add more projects as needed -->
-
-Feel free to explore each project folder to find detailed explanations, Jupyter Notebooks, Python scripts, visualizations, and any other relevant files.
-
+## We will begin by looking at the Shoppers
 
